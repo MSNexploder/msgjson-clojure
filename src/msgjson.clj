@@ -1,4 +1,5 @@
 (ns msgjson
+  (:gen-class)
   (:require [org.httpkit.server :as server])
   (:require [org.httpkit.client :as http])
   (:require [clj-json.core :as json])

@@ -7,4 +7,5 @@
                  [compojure "1.3.2"]]
   :uberjar-name "msgjson-standalone.jar"
   :main msgjson
+  :aot [msgjson]
   :min-lein-version "2.5.0")
